@@ -30,7 +30,7 @@ FROM
 INNER JOIN average_salary ON skills_demand.skill_id = average_salary.skill_id
 WHERE demand_count > 10
 ORDER BY  avg_salary DESC
-LIMIT 25
+LIMIT 25;
 
 --we can rewrite this same query more concisely
 
